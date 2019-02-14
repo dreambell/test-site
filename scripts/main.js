@@ -15,8 +15,8 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
-/*    let myTitle = myImage.getAttribute('title');
-    myTitle.setAttribute('title', 'mengmeng');*/
+    let myTitle = myImage.getAttribute('title');
+    myTitle.setAttribute('title', 'mengmeng');
 
     if(mySrc === 'images/guangzhou.png') {
         myImage.setAttribute('src', 'images/mengmeng.JPG');
